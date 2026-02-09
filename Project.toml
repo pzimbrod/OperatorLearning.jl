@@ -1,7 +1,7 @@
 name = "OperatorLearning"
 uuid = "5913d0e6-5bb6-45e3-8a06-341cf4fd0203"
-authors = ["Patrick Zimbrod <76100656+pzimbrod@users.noreply.github.com>"]
 version = "0.2.2"
+authors = ["Patrick Zimbrod <76100656+pzimbrod@users.noreply.github.com>"]
 
 [deps]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
@@ -12,7 +12,7 @@ OMEinsum = "ebe7aa44-baf0-506c-a96f-8464559b3922"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [compat]
-CUDA = "3"
+CUDA = "3, 5"
 FFTW = "1"
 Flux = "0.12, 0.13"
 NNlib = "0.8"
